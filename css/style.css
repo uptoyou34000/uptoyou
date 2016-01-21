@@ -278,6 +278,7 @@ section {
 	height: 100%;
 }
 #text-carousel-intro-section .caption {
+	display:none !important;
 	position: relative;
 	top: 50%;
 	margin-top: -70px;
@@ -321,6 +322,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	text-align: center;
 	margin-bottom: 15px;
 	margin-right: 25px;
+	margin-left: 18px;
 	margin-top: 10px;
 	float:left;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -340,6 +342,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
 .rotate-box-1.square-icon .rotate-box-icon:after, .rotate-box-2.square-icon .rotate-box-icon:after {
 	content: "";
 	position: absolute;
@@ -757,6 +760,9 @@ ul.social-list {
 ul.social-list li{
 	display: inline-block;
 	margin-right: 20px;
+}
+ul.social-list li:last-child{
+	margin-right:0px;
 }
 ul.social-list li .rotate-box-1 {
 	margin: 0;
