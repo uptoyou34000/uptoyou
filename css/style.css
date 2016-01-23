@@ -36,6 +36,9 @@ body .body {
   background-color: #fff;
   padding: 50px 0;
 }
+#services-section.page{
+	padding-top:100px;
+}
 * {
 	border-radius: 0 !important;
 	-webkit-border-radius: 0 !important;
@@ -320,7 +323,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	display: inline-block;
 	text-align: center;
 	margin-bottom: 15px;
-	margin-right: 25px;
+	margin-right: 15px;
+	margin-left: 15px;
 	margin-top: 10px;
 	float:left;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -749,14 +753,16 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 /* ===== Begin social ===== */
 #social-section {
 	padding: 80px 0;
+	background-image:none !important;
+	background-color:#fff !important;
 }
 ul.social-list {
 	text-align: center;
-	margin-left: 43px;
+	margin: 0 auto;
 }
 ul.social-list li{
 	display: inline-block;
-	margin-right: 20px;
+
 }
 ul.social-list li .rotate-box-1 {
 	margin: 0;
@@ -931,6 +937,10 @@ p.subtitle {
 .owl-carousel {
 	cursor: e-resize;
 }
+.owl-carousel img{
+	width:175px;
+	height:63px;
+}
 .owl-theme .owl-controls {
 	margin-top: 30px;
 }
@@ -1091,6 +1101,13 @@ p.subtitle {
 }
 /* ===== End buttons ===== */
 
-.owl-page {
-	display: none !important;
+
+
+	.rotate-box-1-wrapper .container{
+	padding-top:50px;
 }
+
+
+
+
+
