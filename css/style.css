@@ -752,7 +752,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 ul.social-list {
 	text-align: center;
-	margin: 0 auto;
+	margin-left: 43px;
 }
 ul.social-list li{
 	display: inline-block;
@@ -1090,3 +1090,7 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
+
+.owl-page {
+	display: none !important;
+}
